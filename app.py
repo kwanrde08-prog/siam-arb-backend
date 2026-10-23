@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-# ใส่ API Key ของคุณที่นี่ (แทนที่คำว่า YOUR_API_KEY ด้วยคีย์จริงของคุณ)
+# ใส่ API Key ของคุณที่นี่ (103a78befb5e3751608876cf51446712)
 API_KEY = "YOUR_API_KEY"
 SPORT = "soccer_epl"
 
