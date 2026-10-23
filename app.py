@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-# ใส่ API Key ของคุณที่นี่ (103a78befb5e3751608876cf51446712)
-API_KEY = "YOUR_API_KEY"
+# ใส่ API Key ของคุณที่นี่ (แทนที่คำว่า YOUR_API_KEY ด้วยคีย์จริงของคุณ)
+API_KEY = "103a78befb5e3751608876cf51446712"
 SPORT = "soccer_epl"
 
 @app.route('/api/live-arb', methods=['GET'])
